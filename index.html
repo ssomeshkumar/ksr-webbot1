@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TNEA Counselling Code</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <!-- Header Top Bar -->
+  <header class="container1">
+    <div class="cont1-1">
+      <p class="code">TNEA Counselling Code: 2613</p>
+      <p class="contact">📞 +91 4288 - 274215</p>
+      <p class="email">📧 principal@ksree.ac.in</p>
+    </div>
+    <div class="cont1-2">
+      <img src="p/icons8-facebook-logo-50.png" alt="Facebook"/>
+      <img src="p/icons8-twitter-bird-50.png" alt="Twitter"/>
+      <img src="p/icons8-instagram-logo-50.png" alt="Instagram"/>
+    </div>
+  </header>
+
+  <!-- Logo and Navigation -->
+  <nav class="container2">
+    <div class="cont2-1">
+      <img src="logo.jpg" class="logo" alt="KSR Logo"/>
+    </div>
+    <div class="cont2-2">
+      <p>Home</p>
+      <p>About Us</p>
+      <p>Admission</p>
+      <p>Academics</p>
+      <p>Accreditation</p>
+      <p>Research</p>
+      <p>Innovation</p>
+      <p>IIC</p>
+      <p>Placement</p>
+      <p>Facilities</p>
+      <p>ISR</p>
+      <p>Alumni</p>
+    </div>
+  </nav>
+
+  <!-- Slideshow -->
+  <section class="container3">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="p/ksr5.jpg" class="slide-img" alt="Slide 1"/>
+      </div>
+      <div class="mySlides fade">
+        <img src="p/ksr2.jpg" class="slide-img" alt="Slide 2"/>
+      </div>
+      <div class="mySlides fade">
+        <img src="p/ksr1.jpg" class="slide-img" alt="Slide 3"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- College Info -->
+  <section class="container4">
+    <div class="cont4-1">
+      <h2>K.S.R College of Engineering</h2>
+      <p>This institution got NAAC Accreditation with A++ grade and eligible courses are accredited by NBA.</p>
+      <p><a href="#">Read More</a></p>
+    </div>
+  </section>
+
+  <!-- Chat Button -->
+  <div class="container5">
+    <a href="https://ksrce-faq-chatbot-lrnnr8tqdzb2rrlqtshnw3.streamlit.app/">
+      <img src="p/chart.jpg" alt="Chatbot"/>
+    </a>
+    <p>Chat With Us</p>
+  </div>
+
+  <!-- JS -->
+  <script>
+    let slideIndex = 0;
+    showSlides();
+    function showSlides() {
+      const slides = document.getElementsByClassName("mySlides");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 4000);
+    }
+  </script>
+
+</body>
+</html>
